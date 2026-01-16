@@ -1,9 +1,15 @@
+/* ===========================
+   RESET GERAL
+   =========================== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* ===========================
+   ESTILO BODY
+   =========================== */
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -13,6 +19,9 @@ body {
   background-color: #6b6868;
 }
 
+/* ===========================
+   ESTILO CALCULADORA (CONTAINER)
+   =========================== */
 .calculadora {
   width: 300px;
   background-color: #fff;
@@ -21,6 +30,9 @@ body {
   padding: 20px;
 }
 
+/* ===========================
+   ESTILO DISPLAY
+   =========================== */
 #display {
   width: 100%;
   height: 50px;
@@ -33,6 +45,9 @@ body {
   background-color: #f9f9f9;
 }
 
+/* ===========================
+   ESTILO BOTÕES
+   =========================== */
 .button {
   padding: 25px;
   font-size: 18px;
@@ -43,10 +58,12 @@ body {
   transition: background-color 0.3s;
 }
 
+/* Efeito hover - quando mouse passa sobre o botão */
 .button:hover {
   background-color: #ddd;
 }
 
+/* Efeito ativo - quando botão é clicado */
 button:active {
   background-color: #ccc;
 }
